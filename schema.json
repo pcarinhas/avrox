@@ -1,0 +1,34 @@
+{
+   "type": "record",
+   "name": "Company",
+   "namespace": "com.ansible",
+   "fields": [
+      {
+         "name": "companyName",
+         "type": "string"
+      },
+      {
+         "name": "companyAddress",
+         "type": "string"
+      },
+      {
+         "name": "companyContact",
+         "type": "string"
+      },
+      {
+         "name": "companyEmail",
+         "type": "string"
+      },
+      {
+         "name": "companyPhone",
+         "type": "string"
+      },
+      {
+         "name": "offices",
+         "type": {
+            "type": "array",
+            "items": "CompanyOffice"
+         }
+      }
+   ]
+}

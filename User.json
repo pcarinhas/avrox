@@ -1,0 +1,15 @@
+{
+   "type": "record",
+   "name": "User",
+   "namespace": "com.ansible",
+   "fields": [
+      {
+         "name": "name",
+         "type": "string"
+      },
+      {
+         "name": "publicKey",
+         "type": "string"
+      }
+   ]
+}

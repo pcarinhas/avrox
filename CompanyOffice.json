@@ -1,0 +1,45 @@
+{
+   "type": "record",
+   "name": "CompanyOffice",
+   "namespace": "com.ansible",
+   "fields": [
+      {
+         "name": "location",
+         "type": "string"
+      },
+      {
+         "name": "phoneNumber",
+         "type": "string"
+      },
+      {
+         "name": "networks",
+         "type": "array"
+      },
+      {
+         "name": "email",
+         "type": "string"
+      },
+      {
+         "name": "groups",
+         "type": "array"
+      },
+      {
+         "name": "dnsServers",
+         "type": "array"
+      },
+      {
+         "name": "hosts",
+         "type": {
+            "type": "array",
+            "items": "Host"
+         }
+      },
+      {
+         "name": "users",
+         "type": {
+            "type": "array",
+            "items": "User"
+         }
+      }
+   ]
+}

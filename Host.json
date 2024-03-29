@@ -1,0 +1,15 @@
+{
+   "type": "record",
+   "name": "Host",
+   "namespace": "com.ansible",
+   "fields": [
+      {
+         "name": "name",
+         "type": "string"
+      },
+      {
+         "name": "groups",
+         "type": "array"
+      }
+   ]
+}
