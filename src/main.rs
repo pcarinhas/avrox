@@ -1,4 +1,4 @@
-use avro_rs::{Error, Schema};
+use apache_avro::{Error, Schema};
 use env_logger;
 use std::fs::File;
 use std::io::Read;
@@ -13,7 +13,7 @@ fn main() -> Result<(), Error> {
     let files = vec![
         "User.json",
         "Host.json",
-        "CompanyOffice.json",
+        // "CompanyOffice.json",
         // "schema.json",
     ];
 
